@@ -12,10 +12,10 @@ let pokemonList = [
 
 for (let i=0; i < pokemonList.length; i++){
   if (pokemonList[i].height <0.85){
-    document.write(pokemonList[i].name + "(height " + pokemonList[i].height +" meters)" +"<P> is a small pokemon </p><br>");
+    document.write(`<p> ${pokemonList[i].name} (height ${pokemonList[i].height} meters) is a small pokemon.</p><br>`);
   }else if (pokemonList[i].height >1.85){
-    document.write(pokemonList[i].name + "(height " + pokemonList[i].height +" meters)" +"<p> Wow! That's Big! </p><br>");
+    document.write(`<p> ${pokemonList[i].name} (height ${pokemonList[i].height} meters) Wow! That's big!</p><br>`);
   }else {
-    document.write(pokemonList[i].name + "(height " + pokemonList[i].height +" meters)" +"<p> is an average pokemon </p><br>");
+    document.write(`<p> ${pokemonList[i].name} (height ${pokemonList[i].height} meters) is an average pokemon.</p><br>`);
   }
 }
