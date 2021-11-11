@@ -26,5 +26,5 @@ let pokemonRepository = (function () {
 pokemonRepository.add({ name: ' Caterpie', type: [' bug'], height: .3});
 
 pokemonRepository.getAll().forEach(function(pokemonList) {
-  document.write("<p>" + pokemonList.name + " is a " +  pokemonList.type + " pokemon standing " + pokemonList.height + " meters tall!");
+  document.write(`<p> ${pokemonList.name} is a ${pokemonList.type} pokemon standing ${pokemonList.height} meters tall! </p>`);
 });
