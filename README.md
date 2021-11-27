@@ -1,6 +1,6 @@
 # simple-js-app
 pokemon app
-The idea of this project is to create a Javascript app that communicates with an external API 
+The idea of this project is to create a Javascript app that communicates with an external API
 
 I aimed to keep the final result simple and easy to look at, with soft colors and clear text.
 I would, however, like to revisit this project and make it more visually appealing
