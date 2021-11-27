@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "quotes": ["error", "single"]
+  }
+
+  var foo = void 0;
+
+var Undefined = "foo";
+
+if (typeof foo === "string") {
+    // ...
+}
+
+global.undefined = "foo";
+}
